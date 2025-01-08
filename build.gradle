@@ -52,7 +52,7 @@ dependencies {
 	extraLibs('com.seedfinding:mc_feature:1eedc2e2a0d1959f7f42915d557d78564985c4b4') { transitive = false }
 
 	// seedcracker api
-	implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
+	implementation (include('com.github.19MisterX98.SeedcrackerX:2.15.1')) {transitive = false}
 //	implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
 
 	configurations.implementation.extendsFrom(configurations.extraLibs)
